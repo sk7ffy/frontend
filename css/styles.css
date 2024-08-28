@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Play:wght@400;700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+body {
+    font-family: "Play", sans-serif;
+    font-size: x-large;
+    margin: 0;
+    overflow: hidden;
+    /* MacBook Pro 14" - 1 */
+
+
+/* MacBook Pro 14" - 1 */
+
+
+
+background: linear-gradient(180deg, #FAFFAF 0%, #F9FDAE 85%, #969969 100%);
+
+
+
+
+}
+
+.main-screen,
+.start-screen {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    
+
+}
+
+.main-screen {
+    display: none;
+}
+
+.answers {
+
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    flex-wrap: wrap;
+
+
+
+}
+
+.question {
+    font-size: 1.5em;
+    padding: 5px;
+    font-family: Play;
+    color:#3FA2F6 ;
+
+}
+
+.answer-button {
+    
+    
+    
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    flex-wrap: wrap;
+    /* btn */
+    cursor: pointer;
+
+
+
+
+/* Rectangle 1 */
+
+
+
+background: #3FA2F6;
+border-radius: 7px;
+
+
+/* 25 */
+
+
+
+font-family: 'Play';
+font-style: normal;
+font-weight: 500;
+font-size: 35px;
+line-height: 50px;
+text-align: center;
+padding: 6px;
+
+color: #F6E96B;
+
+
+}
+
+
+
+
+.start-button {
+/* Group 1 */
+cursor: pointer;
+transition: all 0.5s;
+
+
+
+/* Rectangle 1 */
+
+
+
+background: #3FA2F6;
+border-radius: 7px;
+
+
+/* Start */
+
+
+padding: 5px 30px;
+font-family: 'Play';
+font-style: normal;
+font-weight: 700;
+font-size: 55px;
+line-height: 64px;
+text-align: center;
+
+color: #F6E96B;
+}
+
+.start-button:hover{
+    background-color:#117d8e;
+    
+
+}
+img{
+    height: 130px;
+    transform: translateX(271px);
+    
+
+}
+.name{
+    /* MathQuiz */
+
+
+
+
+font-family: 'Play';
+font-style: normal;
+font-weight: 400;
+font-size: px;
+line-height: 102px;
+text-align: center;
+
+color: #96C9F4;
+
+
+}
+.quiz-result{
+    display: flex;
+    color: #3FA2F6;
+    align-items: center;
+    font-family: "Roboto Mono", monospace;
+  font-optical-sizing: auto;
+  font-size: medium;
+  font-style: normal;
+  
+  
+  
+  justify-content: center;
+
+
+    
+}
+.quiz-last-result{
+      display: flex;
+    color: #FF204E;
+    align-items: center;
+    font-family: "Roboto Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 555;
+  font-style: normal;
+  font-size: 17px;
+
+}
